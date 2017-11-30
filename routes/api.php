@@ -15,3 +15,5 @@ use Illuminate\Http\Request;
 
 Route::get('restaurants','RestaurantController@getRestaurants');
 Route::post('user/register','UserController@register');
+Route::post('user/auth','UserController@auth');
+Route::post('restaurant/menu','RestaurantController@getMenu');
